@@ -10,9 +10,10 @@ body{
 
 
 // ################ DEFAULT STRUCTURE SETTINGS ###########
-.page_section {
-	width:100%;
+.main_container {
+  padding-top: $menu_height;
 }
+
 .wrapper {
 	width: 100%;
 	max-width: $wrapper + $padding + $padding; //double padding added because of box-sizing: border-box

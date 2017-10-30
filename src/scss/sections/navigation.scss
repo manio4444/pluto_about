@@ -1,6 +1,7 @@
 #main_navigation {
 	z-index: 3;
 	position: fixed; //to be on top
+	background-color: $white;
 	.wrapper--main_navigation {
 		display:  flex;
 		justify-content: space-between;
