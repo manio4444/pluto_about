@@ -1,0 +1,22 @@
+#section_footer {
+	text-align: center;
+	color: $white;
+	background-color: $red;
+	strong {font-weight: bold;}
+	.wrapper--section_footer {
+		padding: 20px $padding;
+		opacity: .7;
+	}
+	font-size: 14px;
+	.section_footer_agreement--print {
+		display: none;
+	}
+@media (max-width: 1023px) {
+	// padding: 18px 0;
+	// line-height: 1.5em;
+} //media
+@media (min-width: 1024px) {
+	// padding: 42px 0;
+	// .section_wrapper{justify-content: space-between;}
+} //media
+} //#section_footer
