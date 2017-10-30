@@ -30,6 +30,7 @@
     </nav>
 
     <main class="main_container">
+
       <section class="section_title">
         <div class="wrapper">
           <h1 class="section_title_heading">About us</h1>
@@ -39,8 +40,22 @@
           </ul>
         </div>
       </section>
-    </main>
 
+
+      <section class="section_title">
+        <div class="wrapper">
+          <h2 class="section_title_heading">About us</h2>
+          <ul class="section_title_breadcrumbs">
+            <li class="section_title_breadcrumbs_el"><a href="#">Home</a></li>
+            <li class="section_title_breadcrumbs_el"><a href="#">About us</a></li>
+          </ul>
+        </div>
+      </section>
+
+      Introduction
+
+
+    </main>
     <script src="dist/scripts.all.min.js"></script>
   </body>
 </html>
