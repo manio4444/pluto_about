@@ -1,8 +1,7 @@
 // ################ VARIABLES ONLY ###########
-$font_default: 'Roboto', sans-serif;
-$font2: 'Oswald', sans-serif;
-$font_weight: 300;
-$font_size: 16px;
+$font_default: 'Open Sans', sans-serif;
+$font_weight: normal;
+$font_size: 100%;
 $awesome: 'FontAwesome';
 
 $wrapper:1170px; //without padding
@@ -17,12 +16,6 @@ $background: #ffffff;
 $background2: #999999;
 $background3: #453951;
 
-$red: #E51A22;
 $white: #FFFFFF;
 
-$top_menu_height: 92px;
-
-
-$blue: rgb(0,166,228);
-$blue2: rgb(15, 87, 149);
-$blue3: rgb(13, 75, 130); //unofficial, for inputs
+$menu_height: 89px;
