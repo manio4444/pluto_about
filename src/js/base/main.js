@@ -13,7 +13,8 @@ $(document).ready(function(){
 	AOS.init({
 		// disable: window.innerWidth <= 768,
 	});
+	accordionInit();
 
-
+	
 
 });

@@ -101,6 +101,44 @@
         <div class="wrapper">
           <span class="pluto_subheading">Our capabilities</span>
           <h2 class="pluto_heading">Things we are good at</h2>
+          <div class="things_container">
+            <ul class="things_list">
+              <li class="things_list_el">
+                <h3 class="things_list_title toggle">Problems solving</h3>
+                <p class="things_list_desc inner">Maecenas placerat arcu purus. Aliquam eget pulvinar purus, vel vehicula lorem. In eu tortor lectus. Phasellus non lacus nec mauris gravida viverra ut id est. Morbi vel urna in mauris interdum dapibus at sodales velit.</p>
+              </li>
+              <li class="things_list_el">
+                <h3 class="things_list_title toggle">Systems monitoring</h3>
+                <p class="things_list_desc inner">Maecenas placerat arcu purus. Aliquam eget pulvinar purus, vel vehicula lorem. In eu tortor lectus. Phasellus non lacus nec mauris gravida viverra ut id est. Morbi vel urna in mauris interdum dapibus at sodales velit.</p>
+              </li>
+              <li class="things_list_el">
+                <h3 class="things_list_title toggle">Affect management</h3>
+                <p class="things_list_desc inner">Maecenas placerat arcu purus. Aliquam eget pulvinar purus, vel vehicula lorem. In eu tortor lectus. Phasellus non lacus nec mauris gravida viverra ut id est. Morbi vel urna in mauris interdum dapibus at sodales velit.</p>
+              </li>
+            </ul>
+            <ul class="charts_list">
+              <li class="charts_list_el">
+                <h3 class="charts_list_title">Photoshop</h3>
+                <span class="charts_list_subtitle">Pro</span>
+                <span class="charts_list_bar"></span>
+              </li>
+              <li class="charts_list_el">
+                <h3 class="charts_list_title">Illustrator</h3>
+                <span class="charts_list_subtitle">Very good</span>
+                <span class="charts_list_bar"></span>
+              </li>
+              <li class="charts_list_el">
+                <h3 class="charts_list_title">InDesign</h3>
+                <span class="charts_list_subtitle">Good</span>
+                <span class="charts_list_bar"></span>
+              </li>
+              <li class="charts_list_el">
+                <h3 class="charts_list_title">After Effects</h3>
+                <span class="charts_list_subtitle">Average</span>
+                <span class="charts_list_bar"></span>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 

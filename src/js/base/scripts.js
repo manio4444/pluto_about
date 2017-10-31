@@ -93,3 +93,22 @@ function menuDesktopObject() {
     init : _init
   }
 }
+
+
+// ################ ACCORDION_INIT ###########
+function accordionInit() {
+  $('.things_list .toggle').click(function(e) {
+    e.preventDefault();
+    var $this = $(this);
+
+    if ($this.parent().hasClass('show')) {
+      $this.parent().removeClass('show');
+      $this.parent().find('.inner').slideUp(350);
+    } else {
+      $this.parent().parent().find('li').removeClass('show');
+      $this.parent().parent().find('li .inner').slideUp(350);
+      $this.parent().toggleClass('show');
+      $this.parent().find('.inner').slideToggle(350);
+    }
+  });
+}

@@ -1,12 +1,83 @@
 .section_capabilities {
-
-
+  padding: 50px 0 60px;
+  .pluto_heading {
+    margin-bottom: 42px;
+  }
+  .things_container {
+    display: flex;
+  }
+  .things_list_el {
+    &.show .things_list_title::before {
+      content: '\f068';
+    }
+  }
+  .things_list_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: $color_h;
+    margin-bottom: 10px;
+    &::before {
+      font-family: $awesome;
+      color: $orange;
+      content: '\f067';
+      font-weight: normal;
+      margin-right: 10px;
+    }
+  }
+  .things_list_desc {
+    padding-bottom: 17px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .inner {
+    display: none;
+  }
+  .charts_list_el {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 13px;
+    &:not(:last-of-type) {
+      margin-bottom: 30px;
+    }
+  }
+  .charts_list_title {
+    text-transform: uppercase;
+  }
+  .charts_list_bar {
+    flex-basis: 100%;
+    height: 2px;
+    background-color: #cccccc;
+    margin-top: 15px;
+    &::after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 88%;
+      background-color: #453951;
+    }
+  }
+  .charts_list_el:nth-child(1) .charts_list_bar::after {width: 96%;}
+  .charts_list_el:nth-child(2) .charts_list_bar::after {width: 88%;}
+  .charts_list_el:nth-child(3) .charts_list_bar::after {width: 62%;}
+  .charts_list_el:nth-child(4) .charts_list_bar::after {width: 46%;}
 @media (max-width: 767px) {
 } //media
 @media (min-width: 768px) {
 } //media
 @media (max-width: 1023px) {
+  .things_container {
+    flex-direction: column;
+  }
+  .things_list {
+    margin-bottom: 30px;
+  }
 } //media
 @media (min-width: 1024px) {
+  .things_container {
+    justify-content: space-between;
+    &>* {
+      flex-basis: calc(50% - 15px);
+    }
+  }
 } //media
 } //.section_capabilities
