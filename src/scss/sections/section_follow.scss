@@ -1,0 +1,92 @@
+.section_follow {
+  background-color: $background3;
+  color: $white;
+  padding: 20px 0;
+  font-size: 13px;
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .follow_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .follow_icons_title {
+    opacity: .4;
+    text-transform: uppercase;
+    margin: 10px 28px 10px 0;
+    font-weight: 600;
+  }
+  .follow_icons_list {
+    display: flex;
+  }
+  .follow_icons_list_el {
+    &>.fa {
+      margin-right: 15px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255,255,255,.2);
+      font-size: 18px;
+    }
+  }
+  .follow_newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsletter_title {
+    opacity: .4;
+    text-transform: uppercase;
+    margin: 10px 29px;
+    font-weight: 600;
+  }
+  .newsletter_input {
+    height: 39px;
+    padding: 0 10px;
+    color: inherit;
+    @include placeholder {
+      color: inherit;
+    }
+    border: 2px solid $white;
+    border-radius: 2px;
+    opacity: .4;
+    background-color: transparent;
+    margin-right: 10px;
+  }
+  .newsletter_send {
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: $orange;
+    padding: 0 20px;
+    height: 39px;
+    border-radius: 2px;
+    color: $white;
+    cursor: pointer;
+  }
+
+@media (max-width: 767px) {
+} //media
+@media (min-width: 768px) {
+} //media
+@media (max-width: 1023px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .follow_icons {
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  .follow_newsletter {
+    flex-wrap: wrap;
+  }
+} //media
+@media (min-width: 1024px) {
+} //media
+} //.section_follow

@@ -1,22 +1,30 @@
-#section_footer {
-	text-align: center;
-	color: $white;
-	// background-color: $red;
-	strong {font-weight: bold;}
-	.wrapper--section_footer {
-		padding: 20px $padding;
-		opacity: .7;
-	}
+.section_footer {
+	background-color: #2a272e;
 	font-size: 14px;
-	.section_footer_agreement--print {
-		display: none;
+	padding: 35px 0 75px;
+	.wrapper {
+		margin: 0px -15px;
+		&>* {
+			margin: 15px;
+		}
+	}
+	.footer_about {
+		opacity: .2;
+	}
+	.footer_logo {
+		display: flex;
+		align-items: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin-bottom: 30px;
+		.footer_logo_img {
+			height: 40px;
+			margin-right: 10px;
+			filter: grayscale(1);
+		}
 	}
 @media (max-width: 1023px) {
-	// padding: 18px 0;
-	// line-height: 1.5em;
 } //media
 @media (min-width: 1024px) {
-	// padding: 42px 0;
-	// .section_wrapper{justify-content: space-between;}
 } //media
-} //#section_footer
+} //.section_footer

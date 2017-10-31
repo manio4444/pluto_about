@@ -246,9 +246,42 @@
       </section>
 
 
+      <section class="section_follow">
+        <div class="wrapper">
+          <div class="follow_icons">
+            <h2 class="follow_icons_title">Follow us</h2>
+            <ul class="follow_icons_list">
+              <li class="follow_icons_list_el"><a href="#" class="fa fa-facebook"></a></li>
+              <li class="follow_icons_list_el"><a href="#" class="fa fa-twitter"></a></li>
+              <li class="follow_icons_list_el"><a href="#" class="fa fa-google-plus"></a></li>
+              <li class="follow_icons_list_el"><a href="#" class="fa fa-pinterest"></a></li>
+            </ul>
+          </div>
+          <form class="follow_newsletter">
+            <h2 class="newsletter_title">Get the newsletter</h2>
+            <input class="newsletter_input" name="newsletter_input" placeholder="Your email address">
+            <button class="newsletter_send">Subscribe</button>
+          </form>
+        </div>
+      </section>
 
+
+      <footer class="section_footer">
+        <div class="wrapper">
+          <div class="footer_about">
+            <div class="footer_logo">
+              <img src="img/logo_pluto.png" alt="company logo" class="footer_logo_img">
+              <span>Pluto</span>
+            </div>
+          </div>
+          <div class="footer_contact"></div>
+          <div class="footer_tweets"></div>
+          <div class="footer_photostream"></div>
+        </div>
+      </footer>
 
     </main>
+    <div id="backtotop"></div>
     <script src="dist/scripts.all.min.js"></script>
   </body>
 </html>
