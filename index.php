@@ -240,6 +240,8 @@
 
       <section class="section_calltoaction">
         <div class="wrapper">
+          <span class="calltoaction_title">Like what you see? Buy this template!</span>
+          <button class="calltoaction_btn">Take my money</button>
         </div>
       </section>
 

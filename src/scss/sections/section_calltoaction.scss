@@ -1,5 +1,29 @@
 .section_calltoaction {
-
+  padding: 25px 0;
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .calltoaction_title {
+    margin: 25px;
+    font-size: 20px;
+    color: $color_h;
+    text-align: center;
+  }
+  .calltoaction_btn {
+    margin: 25px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $color_h;
+    background-color: transparent;
+    padding: 0 29px;
+    height: 49px;
+    border: 2px solid #cccccc;
+    cursor: pointer;
+  }
 
 @media (max-width: 767px) {
 } //media
