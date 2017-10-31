@@ -42,17 +42,54 @@
       </section>
 
 
-      <section class="section_title">
+      <section class="section_introduction">
         <div class="wrapper">
-          <h2 class="section_title_heading">About us</h2>
-          <ul class="section_title_breadcrumbs">
-            <li class="section_title_breadcrumbs_el"><a href="#">Home</a></li>
-            <li class="section_title_breadcrumbs_el"><a href="#">About us</a></li>
-          </ul>
+          <div class="section_introduction_image"></div>
+          <div class="section_introduction_content">
+            <h2 class="section_title_heading">Welcome to our company</h2>
+            <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Mauris interdum erat eget quam mattis, suscipit fermentum sem ultrices. Quisque commodo quam sit amet velit porta molestie. Morbi sodales, massa at rutrum pharetra, lectus lorem rutrum velit, quis lobortis enim lacus eu eros. Vivamus suscipit eget nunc id interdum.</p>
+            <p>Ut dictum justo ut rutrum pellentesque. In vestibulum vel mi vel convallis. Integer semper consectetur erat et vestibulum. Vestibulum vulputate metus ac purus faucibus, at rhoncus enim eleifend. Vestibulum purus quam, tempus sit amet quam ac, hendrerit porttitor metus. Curabitur fermentum pellentesque adipiscing. Donec lobortis elementum orci. Donec et venenatis.</p>
+          </div>
         </div>
       </section>
 
-      Introduction
+
+      <section class="section_services">
+        <div class="wrapper">
+        </div>
+      </section>
+
+
+      <section class="section_capabilities">
+        <div class="wrapper">
+        </div>
+      </section>
+
+
+      <section class="section_testimonials">
+        <div class="wrapper">
+        </div>
+      </section>
+
+
+      <section class="section_team">
+        <div class="wrapper">
+        </div>
+      </section>
+
+
+      <section class="section_clients">
+        <div class="wrapper">
+        </div>
+      </section>
+
+
+      <section class="section_calltoaction">
+        <div class="wrapper">
+        </div>
+      </section>
+
+
 
 
     </main>

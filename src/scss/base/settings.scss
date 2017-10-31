@@ -24,7 +24,11 @@ body{
 
 
 // ################ OTHER SETTINGS ###########
-p { line-height: 2em; }
+p {
+  line-height: 22px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 strong { font-weight: 900; }
 
 @include selection($white, $orange);

@@ -1,12 +1,38 @@
 .section_introduction {
 
+  padding: 50px 0 70px;
+  .section_introduction_image {
+    background-color: #b1abb6;
+  }
+  .section_title_heading {
+    color: $color_h;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 18px;
+  }
 
 @media (max-width: 767px) {
 } //media
 @media (min-width: 768px) {
 } //media
 @media (max-width: 1023px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .section_introduction_image {
+    height: 300px;
+    margin-bottom: 30px;
+  }
 } //media
 @media (min-width: 1024px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    &>* {
+      flex-shrink: 0;
+      flex-basis: calc(50% - 15px);
+    }
+  }
 } //media
 } //.section_introduction
