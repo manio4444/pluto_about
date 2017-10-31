@@ -169,8 +169,50 @@
 
       <section class="section_team">
         <div class="wrapper">
-          <span class="pluto_subheading">pluto_subheading</span>
-          <h2 class="pluto_heading">pluto_heading</h2>
+          <span class="pluto_subheading">Our team</span>
+          <h2 class="pluto_heading">The right people</h2>
+          <ul class="team_list">
+            <li class="team_list_el">
+              <div class="member_image"></div>
+              <h3 class="member_name">Robert Judd</h3>
+              <span class="member_position pluto_subheading">CEO</span>
+              <div class="member_social">
+                <a href="#" class="member_social_el"><span class="fa fa-facebook-official"></span></a>
+                <a href="#" class="member_social_el"><span class="fa fa-twitter"></span></a>
+                <a href="#" class="member_social_el"><span class="fa fa-linkedin-square"></span></a>
+              </div>
+            </li>
+            <li class="team_list_el">
+              <div class="member_image"></div>
+              <h3 class="member_name">Eva Barnes</h3>
+              <span class="member_position pluto_subheading">Designer</span>
+              <div class="member_social">
+                <a href="#" class="member_social_el"><span class="fa fa-facebook-official"></span></a>
+                <a href="#" class="member_social_el"><span class="fa fa-twitter"></span></a>
+                <a href="#" class="member_social_el"><span class="fa fa-linkedin-square"></span></a>
+              </div>
+            </li>
+            <li class="team_list_el">
+              <div class="member_image"></div>
+              <h3 class="member_name">Eugene Fletcher</h3>
+              <span class="member_position pluto_subheading">Developer</span>
+              <div class="member_social">
+                <a href="#" class="member_social_el"><span class="fa fa-facebook-official"></span></a>
+                <a href="#" class="member_social_el"><span class="fa fa-twitter"></span></a>
+                <a href="#" class="member_social_el"><span class="fa fa-linkedin-square"></span></a>
+              </div>
+            </li>
+            <li class="team_list_el">
+              <div class="member_image"></div>
+              <h3 class="member_name">Janet McKenzie</h3>
+              <span class="member_position pluto_subheading">Support</span>
+              <div class="member_social">
+                <a href="#" class="member_social_el"><span class="fa fa-facebook-official"></span></a>
+                <a href="#" class="member_social_el"><span class="fa fa-twitter"></span></a>
+                <a href="#" class="member_social_el"><span class="fa fa-linkedin-square"></span></a>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
 
