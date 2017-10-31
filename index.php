@@ -219,8 +219,21 @@
 
       <section class="section_clients">
         <div class="wrapper">
-          <span class="pluto_subheading">pluto_subheading</span>
-          <h2 class="pluto_heading">pluto_heading</h2>
+          <div class="clients_txt">
+            <span class="pluto_subheading">Our clients</span>
+            <h2 class="pluto_heading">Meet our happy customers</h2>
+            <p class="clients_desc">Pellentesque varius ipsum sed odio tristique lacinia. Mauris vel felis at mauris sollicitudin condimentum.</p>
+          </div>
+          <div class="clients_logotypes">
+            <div class="clients_logotypes_el"></div>
+            <div class="clients_logotypes_el"></div>
+            <div class="clients_logotypes_el"></div>
+            <div class="clients_logotypes_el"></div>
+            <div class="clients_logotypes_el"></div>
+            <div class="clients_logotypes_el"></div>
+            <div class="clients_logotypes_el"></div>
+            <div class="clients_logotypes_el"></div>
+          </div>
         </div>
       </section>
 

@@ -1,9 +1,41 @@
 .section_clients {
-
-
+  padding: 50px 0;
+  background-color: $background2;
+  .wrapper {
+    display: flex;
+  }
+  .pluto_subheading, .pluto_heading {
+    text-align: left;
+  }
+  .clients_logotypes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .clients_logotypes_el {
+    width: 195px;
+    height: 90px;
+    margin: 15px;
+    background-color: #b1abb6;
+  }
 @media (max-width: 767px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
 } //media
 @media (min-width: 768px) {
+  .wrapper {
+    justify-content: space-between;
+  }
+  .clients_txt {
+    padding-right: 30px;
+    flex-basis: 300px;
+    flex-shrink: 0;
+  }
+  .clients_logotypes {
+    margin: 0px -15px;
+  }
 } //media
 @media (max-width: 1023px) {
 } //media
