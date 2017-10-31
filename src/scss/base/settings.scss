@@ -11,7 +11,11 @@ body{
 
 // ################ DEFAULT STRUCTURE SETTINGS ###########
 .main_container {
-  padding-top: $menu_height;
+  &::before {
+    content: '';
+    height: $menu_height;
+    display: block;
+  }
 }
 
 .wrapper {
