@@ -2,11 +2,13 @@
 	z-index: 3;
 	position: fixed; //to be on top
 	background-color: $white;
+	width: 100%;
 	.wrapper--navigation {
 		display:  flex;
 		justify-content: space-between;
 		align-items: center;
 		height: $menu_height;
+		transition: height .5s ease;
 	}
 	.navigation_logo {
 		display: flex;
@@ -19,20 +21,22 @@
 			margin-right: 10px;
 		}
 	}
+	.navigation_list_el--search::before {
+		font-family: $awesome;
+		font-size: 1.3em;
+		font-weight: normal;
+		content: '\f002';
+	}
 @media (max-width: 1023px) {
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
 	.hamburger {
-		position: fixed;
-		right: 20px;
-		top: 15px;
-		z-index: 1;
 		outline: none;
 	}
-	.navigation_hamburger.is-active {
-		// transform: translateY(12px);
+	.hamburger.is-active {
 	}
-	.navigation_hamburger:not(.is-active) {
+	.hamburger:not(.is-active) {
 		.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-			box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.66);
+			background-color: $color1;
 		}
 	}
 	.navigation_list {
@@ -50,7 +54,6 @@
 		color: $white;
 		font-weight: normal;
 		font-size: 30px;
-		// text-transform: uppercase;
 		opacity: 0;
 		transition: opacity .2s linear, height .2s ease;
 	}
@@ -58,12 +61,6 @@
 		transition: transform .2s ease;
 		transition-delay: .3s;
 		position: relative;
-	}
-	.navigation_list_el:hover::before {
-		content: '#\00a0';
-		position: absolute;
-		left: -20px;
-		pointer-events: none;
 	}
 	.navigation_list_el:not(:last-of-type) {
 		margin-bottom: 25px;
@@ -78,8 +75,6 @@
 	}
 } //media
 @media (min-width: 1024px) {
-	transition: all .5s ease; //mostly for bg
-	width: 100%;
 	.hamburger {display: none;}
 
 	.navigation_list {
@@ -112,25 +107,14 @@
 	.navigation_list_el:not(:hover)::after {
 		transform: scaleX(0);
 	}
-	.navigation_list_el--search::before {
-		font-family: $awesome;
-		font-size: 16px;
-		font-weight: normal;
-		content: '\f002';
-	}
 
-	// .nav_top_logo {
-	// 	height: 42px;
-	// 	transition: all .3s ease; //for height
-	// 	img {width: 100%;}
-	// }
 
 	//after scrolling down desktop menu settings
 	.navigation_top,
 	// .navigation_top_logo img {transition: all .24s ease;}
 	&.scrolled {
 		box-shadow: 0 0 5px rgba(0,0,0,.5);
-		.navigation_list {
+		.wrapper--navigation {
 			height: 60px;
 		}
 		// .navigation_top_logo {
