@@ -11,9 +11,6 @@
 
     <nav id="navigation">
       <div class="wrapper wrapper--navigation">
-        <button class="hamburger hamburger--squeeze" type="button">
-          <span class="hamburger-box"><span class="hamburger-inner"></span></span>
-        </button>
         <div class="navigation_logo">
           <img src="img/logo_pluto.png" alt="company logo" class="navigation_logo_img">
           <span>Pluto</span>
@@ -26,6 +23,9 @@
           <li class="navigation_list_el"><a href="#">Contact</a></li>
           <li class="navigation_list_el navigation_list_el--search"><a href="#"></a></li>
         </ul>
+        <button class="hamburger hamburger--squeeze" type="button">
+          <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+        </button>
       </div>
     </nav>
 
@@ -273,10 +273,28 @@
               <img src="img/logo_pluto.png" alt="company logo" class="footer_logo_img">
               <span>Pluto</span>
             </div>
+            <p>Made with love by kripalser</p>
+            <p>© 2013</p>
           </div>
-          <div class="footer_contact"></div>
-          <div class="footer_tweets"></div>
-          <div class="footer_photostream"></div>
+          <div class="footer_contact">
+            <span class="pluto_subheading">Contact us</span>
+            <a href="mailto:hello@example.com" class="contact_mail">hello@example.com</a>
+            <p class="contact_adress"> 121 King Street, Melbourne<br> Victoria 3000 Australia</p>
+            <p class="contact_adress">Phone: +61 3 8376 6284</p>
+          </div>
+          <div class="footer_tweets">
+            <span class="pluto_subheading">Recent tweet</span>
+            <span class="tweets_date">December 3</span>
+            <p>Testing 1, 2, 3. We've just launched version 1 of our new Envato Marketplaces Hub! Let us know what you think :) <a href="http://envatomarketplaces.com">http://envatomarketplaces.com</a></p>
+          </div>
+          <div class="footer_photostream">
+            <span class="pluto_subheading">Photostream</span>
+            <ul class="photostream_list">
+              <li class="photostream_list_el"></li>
+              <li class="photostream_list_el"></li>
+              <li class="photostream_list_el"></li>
+            </ul>
+          </div>
         </div>
       </footer>
 
