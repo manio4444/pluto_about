@@ -144,10 +144,26 @@
 
 
       <section class="section_testimonials">
-        <div class="wrapper">
-          <span class="pluto_subheading">pluto_subheading</span>
-          <h2 class="pluto_heading">pluto_heading</h2>
-        </div>
+        <ul class="testimonials_list beforeLoad">
+          <li class="testimonials_list_el">
+            <div class="wrapper">
+              <h2 class="pluto_heading">Typography at its best is a visual form of language linking timelessness and time.</h2>
+              <span class="pluto_subheading">Robert Bringhurst</span>
+            </div>
+          </li>
+          <li class="testimonials_list_el">
+            <div class="wrapper">
+              <h2 class="pluto_heading">Typography at its best is a visual form of language linking timelessness and time.</h2>
+              <span class="pluto_subheading">Robert Bringhurst</span>
+            </div>
+          </li>
+          <li class="testimonials_list_el">
+            <div class="wrapper">
+              <h2 class="pluto_heading">Typography at its best is a visual form of language linking timelessness and time.</h2>
+              <span class="pluto_subheading">Robert Bringhurst</span>
+            </div>
+          </li>
+        </ul>
       </section>
 
 

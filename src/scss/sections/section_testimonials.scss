@@ -1,12 +1,25 @@
 .section_testimonials {
-
+  background-color: $background3;
+  color: $white;
+  .pluto_heading {
+    color: inherit;
+    max-width: 770px;
+    line-height: 1.29em;
+  }
+  .pluto_subheading {
+    color: inherit;
+    opacity: .4;
+    margin-bottom: 50px;
+  }
 
 @media (max-width: 767px) {
 } //media
 @media (min-width: 768px) {
 } //media
 @media (max-width: 1023px) {
+  padding: 50px 0;
 } //media
 @media (min-width: 1024px) {
+  padding: 100px 0;
 } //media
 } //.section_testimonials

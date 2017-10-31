@@ -112,3 +112,15 @@ function accordionInit() {
     }
   });
 }
+
+
+// ################ testimonials_slider_init ###########
+function testimonialsSliderInit() {
+  $('.testimonials_list').slick({
+    dots: true,
+    prevArrow: '<span class="slick-prev">Previous</span>',
+    nextArrow: '<span class="slick-next">Next</span>',
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+}
