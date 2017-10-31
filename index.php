@@ -56,32 +56,75 @@
 
       <section class="section_services">
         <div class="wrapper">
-          <span class="">Our services</span>
-
+          <span class="pluto_subheading">Our services</span>
+          <h2 class="pluto_heading">What can we do for you?</h2>
+          <p class="services_desc">
+            Mauris eget ligula vel nulla dignissim pharetra non sed orci. Praesent consequat egestas dapibus. Quisque faucibus erat at metus adipiscing lacinia.
+          </p>
+          <ul class="services_list">
+            <li class="services_list_el">
+              <span class="fa fa-star"></span>
+              <h3 class="services_list_title">Brand creation</h3>
+              <p class="services_list_desc">Praesent dignissim dui eu urna feugiat lobortis. Morbi varius nibh sit amet adipiscing mollis. Aenean id neque ut augue gravida posuere.</p>
+            </li>
+            <li class="services_list_el">
+              <span class="fa fa-asterisk"></span>
+              <h3 class="services_list_title">Interface design</h3>
+              <p class="services_list_desc">Donec sed dui consectetur, condimentum tellus nec, lacinia felis. Aenean vehicula erat a justo lobortis, non euismod orci vulputate.</p>
+            </li>
+            <li class="services_list_el">
+              <span class="fa fa-trophy"></span>
+              <h3 class="services_list_title">Graphic design</h3>
+              <p class="services_list_desc">Nam pharetra justo turpis, quis rutrum lorem lobortis euismod. Praesent augue, consectetur ultricies eros non, lacinia scelerisque ante.</p>
+            </li>
+            <li class="services_list_el">
+              <span class="fa fa-cog"></span>
+              <h3 class="services_list_title">Web development</h3>
+              <p class="services_list_desc">Aenean vitae neque mi. Phasellus tempor risus non risus tristique, quis egestas velit vulputate. Sed porttitor non nunc non pharetra.</p>
+            </li>
+            <li class="services_list_el">
+              <span class="fa fa-thumbs-up"></span>
+              <h3 class="services_list_title">Online marketing</h3>
+              <p class="services_list_desc">Duis quis elit hendrerit, tempor magna ac, adipiscing ligula. Maecenas neque nibh, vehicula ut neque at, scelerisque mollis enim.</p>
+            </li>
+            <li class="services_list_el">
+              <span class="fa fa-file-text"></span>
+              <h3 class="services_list_title">Information visualization</h3>
+              <p class="services_list_desc">Integer quis tristique arcu. Ut convallis purus purus, ut facilisis lorem pulvinar sit. Curabitur ullamcorper purus non auctor consectetur.</p>
+            </li>
+          </ul>
         </div>
       </section>
 
 
       <section class="section_capabilities">
         <div class="wrapper">
+          <span class="pluto_subheading">Our capabilities</span>
+          <h2 class="pluto_heading">Things we are good at</h2>
         </div>
       </section>
 
 
       <section class="section_testimonials">
         <div class="wrapper">
+          <span class="pluto_subheading">pluto_subheading</span>
+          <h2 class="pluto_heading">pluto_heading</h2>
         </div>
       </section>
 
 
       <section class="section_team">
         <div class="wrapper">
+          <span class="pluto_subheading">pluto_subheading</span>
+          <h2 class="pluto_heading">pluto_heading</h2>
         </div>
       </section>
 
 
       <section class="section_clients">
         <div class="wrapper">
+          <span class="pluto_subheading">pluto_subheading</span>
+          <h2 class="pluto_heading">pluto_heading</h2>
         </div>
       </section>
 

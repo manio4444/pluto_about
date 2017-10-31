@@ -2,7 +2,27 @@
 	// padding-top: 50px;
 	// padding-bottom: 60px;
 }
-
+.pluto_subheading {
+	font-size: 13px;
+	margin: 0 auto;
+	margin-bottom: 29px;
+	display: block;
+	text-align: center;
+	color: #999999;
+	text-transform: uppercase;
+}
+.pluto_heading {
+	margin: 0 auto;
+	margin-bottom: 22px;
+	text-align: center;
+	color: $color_h;
+	@media (max-width: 1023px) {
+		font-size: 24px;
+	} //media
+	@media (min-width: 1024px) {
+		font-size: 32px;
+	} //media
+}
 
 #backtotop {
 	position: fixed;
