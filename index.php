@@ -9,22 +9,22 @@
   </head>
   <body>
 
-    <nav id="main_navigation">
-      <div class="wrapper wrapper--main_navigation">
+    <nav id="navigation">
+      <div class="wrapper wrapper--navigation">
         <button class="hamburger hamburger--squeeze" type="button">
           <span class="hamburger-box"><span class="hamburger-inner"></span></span>
         </button>
-        <div class="main_navigation_logo">
-          <img src="img/logo_pluto.png" alt="company logo" class="main_navigation_logo_img">
+        <div class="navigation_logo">
+          <img src="img/logo_pluto.png" alt="company logo" class="navigation_logo_img">
           <span>Pluto</span>
         </div>
-        <ul class="main_navigation_list">
-          <li class="main_navigation_list_el"><a href="#">Home</a></li>
-          <li class="main_navigation_list_el"><a href="#">About</a></li>
-          <li class="main_navigation_list_el"><a href="#">Portfolio</a></li>
-          <li class="main_navigation_list_el"><a href="#">Blog</a></li>
-          <li class="main_navigation_list_el"><a href="#">Contact</a></li>
-          <li class="main_navigation_list_el main_navigation_list_el--search"><a href="#"></a></li>
+        <ul class="navigation_list">
+          <li class="navigation_list_el"><a href="#">Home</a></li>
+          <li class="navigation_list_el"><a href="#">About</a></li>
+          <li class="navigation_list_el"><a href="#">Portfolio</a></li>
+          <li class="navigation_list_el"><a href="#">Blog</a></li>
+          <li class="navigation_list_el"><a href="#">Contact</a></li>
+          <li class="navigation_list_el navigation_list_el--search"><a href="#"></a></li>
         </ul>
       </div>
     </nav>
@@ -34,9 +34,9 @@
       <section class="section_title">
         <div class="wrapper">
           <h1 class="section_title_heading">About us</h1>
-          <ul class="section_title_breadcrumbs">
-            <li class="section_title_breadcrumbs_el"><a href="#">Home</a></li>
-            <li class="section_title_breadcrumbs_el"><a href="#">About us</a></li>
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs_el"><a href="#">Home</a></li>
+            <li class="breadcrumbs_el"><a href="#">About us</a></li>
           </ul>
         </div>
       </section>
@@ -56,6 +56,8 @@
 
       <section class="section_services">
         <div class="wrapper">
+          <span class="">Our services</span>
+
         </div>
       </section>
 

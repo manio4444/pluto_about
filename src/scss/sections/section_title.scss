@@ -11,18 +11,18 @@
   .section_title_heading {
     font-size: 32px;
   }
-  .section_title_breadcrumbs {
+  .breadcrumbs {
     display: flex;
     align-items: center;
     font-size: 13px;
   }
-  .section_title_breadcrumbs_el a:not(:hover) {
+  .breadcrumbs_el a:not(:hover) {
     opacity: .4;
   }
-  .section_title_breadcrumbs_el a:hover {
+  .breadcrumbs_el a:hover {
     opacity: 1;
   }
-  .section_title_breadcrumbs_el:not(:last-of-type)::after {
+  .breadcrumbs_el:not(:last-of-type)::after {
     content: '\00a0/\00a0';
     opacity: .4;
   }

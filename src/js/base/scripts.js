@@ -34,8 +34,8 @@ function deleteBeforeLoad() {
 function menuMobileObject() {
   //private
   var m_menu_hamb = document.querySelector('button.hamburger');
-  var m_menu_cont = document.querySelector('.main_navigation_list');
-  var m_menu_list = $('.main_navigation_list_el');
+  var m_menu_cont = document.querySelector('.navigation_list');
+  var m_menu_list = $('.navigation_list_el');
 
   return {
     //public
@@ -62,7 +62,7 @@ function menuMobileObject() {
 // ################ MENU_DESKTOP_SCROLL ###########
 function menuDesktopObject() {
   //private
-  var _mainNavContainer = document.querySelector('#main_navigation');
+  var _mainNavContainer = document.querySelector('#navigation');
   var _addedClass = 'scrolled';
   var _expand = function() {
     _mainNavContainer.classList.add(_addedClass);
